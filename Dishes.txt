@@ -58,13 +58,16 @@ modak
 tandori
 fried_fish
 prawns
+noodles
 manchurian
 spring_roll
 calamari
+pie
 pudding
 lamb_patties
 salad
 jacket_potatoes
+steak
 fried_fish
 blt_sandwich
 baked_vegetables
@@ -76,6 +79,7 @@ carbonara
 aglio_e_olio
 burger
 apple_sauce
+omelette
 hot_cross_buns
 chicken_pie
 grilled_lobster
@@ -85,6 +89,8 @@ stuffed_chicken
 hash_browns
 garlic_rice
 vegetable_torte
+pancakes
+sandwich
 cereals
 crepes
 quiches
@@ -92,4 +98,6 @@ moroccan_eggplant
 gnochi
 goulash
 nachos_and_cheese
+lasagna
 chicken_lazone
+risotto
