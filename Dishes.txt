@@ -1,3 +1,8 @@
+aloo_gobi
+aloo_tikki
+aloo_matar
+aloo_methi
+aloo_shimla_mirch
 rabdi
 amritsari_fish
 kulcha
@@ -12,7 +17,6 @@ chicken_razala
 chicken_tikka
 chicken_tikka_masala
 chole_bhature
-alu_matar
 barfi
 gajar_halwa
 rasgulla
@@ -34,7 +38,6 @@ paratha
 poori
 dal
 pav_misal
-chas
 kachori
 paneer_curry
 chicken_curry
