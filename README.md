@@ -1,8 +1,11 @@
 # PyTorchHack 2020
 
-## Recipe suggestions based on an image
-First the app will identify all the food products in the image and then it will suggest recipes based on the food items available.<br/>
-Alternatively, user can also take photos of ingredients and app will suggest recipes based on those ingredients.<br/>
-1. https://www.kaggle.com/kmader/food41 (Food images of 101 categories)
-2. http://www.ub.edu/cvub/ingredients101/ (Ingredient list dataset for above dataset)
+## FoodApp
 
+### Use Cases
+The App will take images as input and output the name od the dish to the user.</br>
+User can also type in a type of cuisine that they want to eat and the model will recommend dishes/restaurants(?) based on that cuisine</br>
+
+### Resources
+1. https://www.kaggle.com/synysterjeet/food-classification (Food images divided by type of dish in 184 classes, built on top of Food101)
+2. https://www.kaggle.com/shrutimehta/zomato-restaurants-data?select=zomato.csv (List of restaurants from Zomato along with the cuisine they serve)
