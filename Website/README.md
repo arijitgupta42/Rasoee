@@ -1,5 +1,5 @@
-# Website
-***A website which identifies the food dish in an uploaded photograph***
+# Rasoee
+***The website for the app which identifies the food in an uploaded photograph***
 
 ## Python setup
 You will need to download and install the following python packages.
