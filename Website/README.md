@@ -1,5 +1,5 @@
 # Rasoee
-***The website for the app which identifies the food in an uploaded photograph***
+> ***The website for the app which identifies the food in an uploaded photograph***
 
 ## Python setup
 You will need to download and install the following python packages.
@@ -58,4 +58,4 @@ python manage.py runserver
 
 The website will now be accessible locally. Open any web browser and enter the address given by the previous command, this will bring you to the home of the website.
 
-Upload photographs and have fun
+> *Upload photographs and have fun!*
