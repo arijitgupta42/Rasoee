@@ -32,6 +32,16 @@ or on your anaconda prompt using
 conda install -c anaconda pillow
 ```
 
+4. Shortcuts
+You can install it in the command line prompt using
+```
+pip install shortcuts
+```
+or on your anaconda prompt using 
+```
+conda install -c anaconda shortcuts
+```
+
 ## Django setup
 The entire website was built using django. Django can be very easily installed on your system using the command line. Type the following in the command line
 ```
