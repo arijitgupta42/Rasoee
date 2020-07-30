@@ -1,5 +1,5 @@
 # Website
-> A website which identifies the food dish in an uploaded photograph
+> ***A website which identifies the food dish in an uploaded photograph***
 
 ## Python setup
 You will need to download and install the following python packages.
@@ -60,13 +60,4 @@ python manage.py runserver
 
 The website will now be accessible locally. Open any web browser and enter the address given by the previous command, this will bring you to the home of the website.
 
-Upload photographs and have fun
-
-Savdhan rahe Satark rahe
-
-## Contributors
-- Dev Churiwala
-- Arijit Gupta
-- Ameya Laad
-- Anish Mulay
-- Smitesh Patil
+> *Upload photographs and have fun!*
