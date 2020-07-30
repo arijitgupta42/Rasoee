@@ -3,7 +3,7 @@
 
 ## Python setup
 You will need to download and install the following python packages.
-1. Pytorch : PyTorch is the machine learning library that was used for this website.
+1. **Pytorch** : PyTorch is the machine learning library that was used for this website.
 ``` 
 pip install pytorch 
 ```
@@ -12,7 +12,7 @@ or on your anaconda prompt using
 conda install -c pytorch pytorch
 ```
 
-2. Torchvision : It will be used to load models and important datasets. 
+2. **Torchvision** : It will be used to load the model. 
 You can install it in the command line prompt using
 ```
 pip install torchvision
@@ -22,7 +22,7 @@ or on your anaconda prompt using
 conda install -c pytorch torchvision
 ```
 
-3. Pillow : It will be used to interact with image files and for preprocessing.
+3. **Pillow** : It will be used to interact with the image files for preprocessing.
 You can install it in the command line prompt using
 ```
 pip install Pillow
@@ -31,8 +31,6 @@ or on your anaconda prompt using
 ```
 conda install -c anaconda pillow
 ```
-
-finally, in order for the website to work you need to place the file shortcuts.py in the site packages folder of anaconda or alternatively in the base directory where python is installed.
 
 ## Django setup
 The entire website was built using django. Django can be very easily installed on your system using the command line. Type the following in the command line
