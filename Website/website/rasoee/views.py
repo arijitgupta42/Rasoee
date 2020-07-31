@@ -9,8 +9,8 @@ import torch.nn as nn
 from django.utils.translation import gettext as _
 
 def preprocess(img):
-	data_transforms = transforms.Compose([transforms.Resize(512),
-        			  transforms.CenterCrop(448),
+	data_transforms = transforms.Compose([transforms.Resize(448),
+        			  transforms.CenterCrop(412),
         			  transforms.ToTensor(),
         	          transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
 	image = Image.open(img)
