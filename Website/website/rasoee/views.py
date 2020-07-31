@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.shortcuts import render
 from .forms import ImageForm
 import os
-import torchvision.transforms as transforms
+from torchvision import transforms, models
 from PIL import Image
 import torch
 import torch.nn as nn
