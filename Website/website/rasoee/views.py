@@ -19,11 +19,10 @@ def preprocess(img):
 
 def run_model(img, path, class_names):
 	preds = []
-	model = torch.hub.load('pytorch/vision:v0.6.0', 'mobilenet_v2', pretrained=True)
-	ftrs = model.classifier[1].in_features
-	model.classifier[1] = nn.Linear(ftrs, 184)
+	model = torch.hub.load('pytorch/vision:v0.6.0', 'resnext50_32x4d', pretrained=True)
+	ftrs = model.fc.in_features
+	model.fc = nn.Linear(ftrs, 308)
 	model.load_state_dict(torch.load(path, map_location=torch.device('cpu')))
-	#model.load_state_dict(torch.load("./Model Weights/food_classification_mobilenetv2_80%.pth", map_location=torch.device('cpu')))
 	model.eval()
 	output = model(img[None, ...])
 	_,preds = torch.max(output, 1)
