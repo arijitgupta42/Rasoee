@@ -1,65 +1,308 @@
-Chhole_Bhature
-Bharwa_Bhindi
-Pindi_Chana
-Masala_Chai
-Samosa
-Kulche
-Panipuri/Golgappe/Phuchka
-Jalebi
+Alu Gobi
+Alu Matar
+American Pancakes
+Apple Pie
+Arros negre
+Arroz con huevo
+Arroz con pollo
+Avocado Toast
+BLT Sandwich
+Bacon Egg and Cheese Sandwich
+Bagels
+Baguette
+Baked Ziti
+Banana Bread
+Banana Split
+Barbecue Ribs
+Barfi
+Beef Rendang (rendang)
+Beef Vindaloo
+Beefaroni
+Beignet
+Beignets
+Blanquette de Veau
+Bocadillo de carne
+Bocadillo de jamon
+Bocadillo de pollo
+Bocadillo de queso
+Boeuf Bourguignon
+Bouillabaisse
+Bread Pudding
+Breakfast Burrito
+Brioche
+Brodetto Di Pesce
+Brownies
+Buffalo Wings
+Burrito
+Butter Chicken
+Cabrales
+California-Style Pizza
+Cannele
+Carrot Halwa
+Cassoulet
+Chaat Papri
+Cham-Cham
+Chana Masala
+Chapati
+Chausson aux Pommes
+Cheese Dog
+Cheeseburger
+Cheesesteak
+Chiacchiere
+Chicago-Style Deep Dish Pizza
+Chicken 65
+Chicken Biriyani
+Chicken Fried Steak
+Chicken Nuggets
+Chicken Parmigiana
+Chicken Tajine
+Chicken Tikka
+Chicken and Waffles
+Chicken with Chestnuts
+Chili Chicken
+Chili Dog
+Chili con Carne
+Chimichanga
+Chinese Chicken Salad
+Chistorra
+Chocolate Chip Cookie
+Chocolate Italian Sponge Cake
+Chocolate caliente
+Chop Suey
+Chouquette
+Club Sandwich
+Cobb Salad
+Conejo con arroz
+Coq au Vin
+Cordero asado
+Coriander Chutney
+Corn on the Cob
+Cornbread
+Couscous
+Crab Cake
+Creamy Chicken Marsala
+Creamy Lemon Parmesan Chicken Piccata
+Creamy Mushroom Soup With Italian Sausage
+Creme Brulee
+Crepe
+Croissant
+Croque Monsieur
+Croquetas de bacalao
+Croquetas de jamon
+Cuban Sandwich
+Cupcake
+Daifuku
+Daiwa Sushi
+Dal Makhani
+Dango
+Date Tamarind Chutney
+Dessert Bars
+Deviled Eggs
 Dhokla
-Undhiyo
-Pooran_Poli
-Aloo_Parantha
-Gond_Ki_Barfi
-Panjiri
-Ghewar
-Guntur_Idli
-Aamras
-Appam
-Coconut_Crab_Curry
-Pathrode
-Kadhi
-Hyderabadi_Biryani
-Nadru_Ke_Kofte
-Kahwa
-Coconut_Ladoo
-Gajar_ka_halwa
-Kaju_Katli
-Eromba
-Momo
-Rogan_Josh
-Masala_Dosa
-Khakhra
-Gatte_saag
-Paturi
-Dhansak
-Lucknowi_Biryani
-Kolkata_Biryani
-Kakori_Kebab
-Galawti_kebab
-Bise_bele_baath
-Khandvi
-Falooda
-Kheer/Payasam
-Puliyodharai
-Litti_Chokha
-Chicken_Tikka
-Butter_Chicken
+Doughnut
+Easy Italian Stuffed Peppers
+Ebi furai
+Eclair
+Eggplant And Italian Sausage Gratin
+Eggs Benedict
+Empanada Galleg
+Endo Sushi
+Escargot
+Espetos
+Fajitas
+Fish Fry
+Flan
+Focaccia Di Genova
+French Onion Soup
+Fried Chicken
+Frozen Yogurt
+Frutti Di Mare
+Fudge
+Fuet
+Gachas
+Galette Complet
+Gambas a la plancha
+Garlic Butter Italian Sausage Sandwiches
+Garlic Parmesan Cheese Bombs
+Garlic Soya Chicken
+General Tso's Chicken
+Gougere
+Gratin Dauphinois
+Grilled Cheese
+Gulab Jamun
+Gumbo
+Gyoza
+Hakata ramen
+Himono
+Hoagie
+Honey Chilli Potato
+Hot Italian Sliders
+Houtou Fudou
+Ice Cream Float
+Idli
+Italian Beef
+Italian Braised Chicken
+Italian Chicken Meal Prep Bowls
+Italian Crescent Casserole
+Italian Garlic Bread Grilled Cheese
+Italian Green Salad
+Italian Oven Roasted Vegetables
+Italian Ravioli
+Italian Roasted Potatoes
+Italian Sandwich Roll-Ups
+Italian Sausage And Peppers
+Italian Sausage Rigatoni
+Italian Seafood Pasta With Mussels & Calamari
+Italian Skillet Chicken With Tomatoes And Mushrooms
+Italian Style Chicken Mozzarella Skillet
+Italian Wedding Soup
+Jabugo
+Jalebi
+Jambalaya
+Jambon-Beurre
+Kaiseki
+Kaisendon
+Kansas City-Style Barbecue
+Karaage
+Kasutera
+Katsukura
+Kayu
+Key Lime Pie
+Kheema
+Kheer
+Korokke
+Kulfi
+Kung Pao Chicken
+Kushiyaki
+Ladoo
+Lamb Kebabs
+Lamb Vindaloo
+Lime Pickle
+Lle Flottante
+Lobster Roll
+Longaniza
+Mac and Cheese
+Macaron
+Madeleine
+Magdalenas
+Magret de canard
+Maisen
+Makizushi
+Malai Kofta (Veggie Balls With Sauce)
+Mango Lassi
+Marinara Sauce
+Masala Chai
+Masala Dosa
+Masoor Dal
+Meatloaf
+Medu Vada
+Milkshake
+Mille Feuille
+Miso Soup
+Mofongo
+Molten Chocolate Cake
+Monaka
+Montadito
+Morcilla de Burgos
+Moules Frites
+Mussels In Spicy Red Arrabbiata Sauce
+Naan
+Napolitana de chocolate
+Nashville Hot Chicken
+Natillas
+Navratan Korma (Nine Gem Curry)
+Negima yakitori
+New England Clam Chowder
+New York-Style Cheesecake
+New York-Style Pizza
+Okonomiyaki
+Omelette
+Omurice
+Onion Pakora
+Onion Rings
+Orzo With Italian Sausage And Peppers
+Osso Buco
+Oyakodon
+Pa amb tomaquet
+Pain au Chocolat
+Palmie
+Pane Bianco
+Papadum
+Pasta Salad
+Pastrami on Rye
+Pecan Pie
+Pernil
+Pesto Sliders
+Pissaladiere
+Pisto
+Po'Boy
+Poke Salad
+Porchetta
+Pot Pie
+Pot Roast
+Pot au feu
 Pulao
-Papri_chaat
-Pav_Bhaji
-Rosogolla
-Sondesh
-Maasor_Tenga
-Chingri_Malai_Curry
-Pork_with_bamboo_shoots
-Bhaghare_Baingan
-Pachadi
-Aam_ka_achaar
-Hari_Chutney
-Malpua
-Mysore_Pak
-Meen_Moilee
-Bebinca
-Tabakh_Maaz
-Shahi_paneer
+Pulled Pork
+Queso Tetilla
+Quiche
+Quince Paste
+Quinoi
+Rabas
+Ragu Alla Bolognese
+Raita
+Rajma
+Ras Malai
+Ratatouille
+Ravioli With Garlic Basil Oil
+Red Velvet Cake
+Reuben
+Rillettes
+Roast Beef Sandwich
+Rogan Josh
+Romesco
+Roscon de Reyes
+S'more
+Saag Paneer
+Sambar
+Samosa
+Sauce Bechamel
+Shoyu ramen
+Shrimp And Corn Risotto With Bacon
+Shrimp and Grits
+Sicilian Pizza
+Slow Cooker Italian Beef
+Snickerdoodle
+Soba
+Sofrito
+Souffle
+Spaghetti Olio E Aglio
+Spaghetti and Meatballs
+Steak Tartare
+Stromboli
+Stuffed Italian Flank Steak
+Submarine Sandwich
+Sukiyaki
+Sundae
+Surf and Turf
+Tandoori Chicken
+Tapenade
+Tarta de Santiago
+Tarte
+Tartine
+Teppanyaki
+Teriyaki
+Texas-Style Barbecue
+Tomate Farcie
+Tomate frito
+Tomato & Basil Bruschetta
+Tonkotsu ramen
+Torta del Casar
+Tortellini Pasta Carbonara
+Tortellini Soup With Italian Sausage And Spinach
+Tsunahachi
+Turron
+Udon
+Uthapam
+Vegetable Jalfrezi
+Verdejo
+Yakisoba
