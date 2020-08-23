@@ -1,0 +1,109 @@
+{% load static %}
+{% load embed_video_tags %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Rasoee</title>
+    <style>
+        body {
+			background-color: #3AAFA9;
+			background-size: cover;
+			border: none;
+			outline: none;
+			font-family: Courier New, sans-serif;
+			font-size: 1.4em;
+			letter-spacing: 2px;
+			word-spacing: 2px;
+			font-weight: normal;
+			text-decoration: none;
+			font-style: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #2B7A78;
+		}
+		#parent {
+		    width: 60%;
+		    height:200px;
+		    margin: auto;
+		    position: relative;
+		}
+		.block {
+		    height:75px;
+		    width:250px;
+		    text-align:left;
+		}
+		.center {
+		    margin:auto;
+		}
+		.flex-container {
+			display: flex;
+		}
+		h1 {
+			color: #17252A;
+			font-weight: 900;
+			font-size: 3.9em;
+		}
+		h5 {
+			color: #3aafa9;
+			font-weight: 900;
+			font-size: 1.6em;
+		}
+		.part1 {
+			color: #FEFFFF;
+		}
+		.btn-lg {
+			background-color: #17252A;
+			color: #3AAFA9;
+		}
+
+		.btn-lg:hover {
+    		background:#2b7a78;
+    	} 
+	</style>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">
+            <div class="flex-container">
+                {% load static %}
+                <img src="{% static 'icon.svg' %}" width="40" height="40" class="d-inline-block align-top" alt="">
+                &nbsp;
+                <h5>RAS</h5>
+                <h5 class="part1">OEE</h5>
+            </div>
+        </a>
+    </nav>
+    <div id="parent">
+        <div id="child" class="block center">
+            {% if img_obj %}
+            <div class="flex-container">
+                <h1>RAS</h1>
+                <h1 class="part1">OEE</h1>
+            </div>
+            <h4>The image you uploaded was</h4>
+            <br>
+            <h4>{{text}}</h4>
+            <img src="{{ img_obj.image.url}}" alt="connect" style="max-height:300px"><br>
+            <h2>The ingredients required to make this are</h2>
+            {% for ingredient in ingredients %}
+            <h4>{{ ingredient }}</h4><br>
+            {% endfor %}
+            <h4>Some tutorial videos can be found <a href="{{ video_link }}">here</a></h4>
+            {% else %}
+            <div class="flex-container">
+                <h1>RAS</h1>
+                <h1 class="part1">OEE</h1>
+            </div>
+            <form method="post" enctype="multipart/form-data">{% csrf_token %} {{ form.as_p }}
+                <button type="submit" class=" btn btn-lg">Upload</button>
+            </form>
+            {% endif %}
+        </div>
+    </div>
+</body>
+
+</html>

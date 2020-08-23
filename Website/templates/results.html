@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Rasoee</title>
+    <style>
+    body {
+        background-color: #3AAFA9;
+        background-size: cover;
+        border: none;
+        outline: none;
+        font-family: Courier New, sans-serif;
+        font-size: 1.4em;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        color: #17252a;
+    }
+
+    #parent {
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        position: relative;
+    }
+
+    .block {
+        height: 75px;
+        width: 450px;
+        text-align: left;
+    }
+
+    .center {
+        margin: auto;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+
+    h1 {
+        color: #17252A;
+        text-align: center;
+        font-weight: 900;
+        font-size: 3.9em;
+    }
+
+    h5 {
+        color: #3aafa9;
+        font-weight: 900;
+        font-size: 1.6em;
+    }
+
+    .part1 {
+        color: #FEFFFF;
+    }
+
+    .btn-lg {
+        background-color: #17252A;
+        color: #3AAFA9;
+        width: 350px;
+    }
+
+    .btn-lg:hover {
+        background: #2b7a78;
+    }
+
+    a {
+        color: inherit;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">
+            <div class="flex-container">
+                {% load static %}
+                <img src="{% static 'icon.svg' %}" width="40" height="40" class="d-inline-block align-top" alt="">
+                &nbsp;
+                <h5>RAS</h5>
+                <h5 class="part1">OEE</h5>
+            </div>
+        </a>
+    </nav>
+    <div id="parent">
+        <div id="child" class="block center">
+            <div class="flex-container">
+                <h1>RAS</h1>
+                <h1 class="part1">OEE</h1>
+            </div>
+            {% for suggestion in suggestions %}
+            <div>
+                {{ suggestion }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>
