@@ -1,0 +1,3 @@
+['aten::Int.Tensor', 'aten::_convolution', 'aten::adaptive_avg_pool2d', 'aten::add.Tensor',
+  'aten::addmm', 'aten::batch_norm', 'aten::constant_pad_nd', 'aten::dropout', 'aten::mul.Tensor',
+  'aten::sigmoid', 'aten::size.int', 'aten::t', 'aten::view', 'prim::NumToTensor.Scalar']
