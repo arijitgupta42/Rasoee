@@ -22,7 +22,7 @@
 			font-style: normal;
 			font-variant: normal;
 			text-transform: none;
-			color: #2B7A78;
+			color: #236362;
 		}
 		#parent {
 		    width: 60%;
@@ -32,14 +32,15 @@
 		}
 		.block {
 		    height:75px;
-		    width:250px;
-		    text-align:left;
+		    width:650px;
+		    text-align: center;
 		}
 		.center {
 		    margin:auto;
 		}
 		.flex-container {
 			display: flex;
+			justify-content: center;
 		}
 		h1 {
 			color: #17252A;
@@ -60,7 +61,7 @@
 		}
 
 		.btn-lg:hover {
-    		background:#2b7a78;
+    		background:#236362;
     	} 
 	</style>
 </head>
@@ -84,14 +85,16 @@
                 <h1>RAS</h1>
                 <h1 class="part1">OEE</h1>
             </div>
-            <h4>The image you uploaded was</h4>
-            <br>
-            <h4>{{text}}</h4>
-            <img src="{{ img_obj.image.url}}" alt="connect" style="max-height:300px"><br>
-            <h2>The ingredients required to make this are</h2>
+            <h4>The image you uploaded was <b>{{text}}</b></h4>
+            <div class="flex-container">
+                <img src="{{ img_obj.image.url}}" alt="connect" style="max-height:300px">
+            </div>
+            <h2>The ingredients required to make this are:</h2>
             {% for ingredient in ingredients %}
-            <h4>{{ ingredient }}</h4><br>
+            <h4>{{ ingredient }}</h4>
             {% endfor %}
+            <br>
+            <h4>The recipe can be found <a href="{{ recipe_link }}">here</a></h4><br>
             <h4>Some tutorial videos can be found <a href="{{ video_link }}">here</a></h4>
             {% else %}
             <div class="flex-container">
@@ -99,7 +102,9 @@
                 <h1 class="part1">OEE</h1>
             </div>
             <form method="post" enctype="multipart/form-data">{% csrf_token %} {{ form.as_p }}
-                <button type="submit" class=" btn btn-lg">Upload</button>
+                <div class="flex-container">
+                    <button type="submit" class=" btn btn-lg">Upload</button>
+                </div>
             </form>
             {% endif %}
         </div>

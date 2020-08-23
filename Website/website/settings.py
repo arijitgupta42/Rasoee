@@ -25,7 +25,7 @@ SECRET_KEY = 'lvzcnd_b5-1g_w53vur=0l1i(c+b25a66#rjl6vi@7sowp&_pw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rasoee.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
