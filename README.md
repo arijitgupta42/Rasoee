@@ -2,8 +2,8 @@
 > **Our submission for the PyTorch Summer Hackathon 2020**
 
 ### Use Cases
-The App will take images as input and output the name of the dish to the user.</br>
-User can also type in a type of cuisine that they want to eat and the model will recommend dishes/restaurants(?) based on that cuisine and their location</br>
+1. The App will take images as input and output the name of the dish to the user. It will also list the ingredients to a recipe and the link to the original recipe.</br>
+2. User can also choose from a list of cuisines and describe the taste and/or method of preparation of dish, and site will return matching dishes from pre existing list.
 
 ### Resources
 1. https://www.kaggle.com/synysterjeet/food-classification (Food images divided by type of dish in 308 classes, noisy dataset scraped from the web)
