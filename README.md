@@ -10,3 +10,7 @@
 2. https://www.tarladalal.com/RecipeCategories.aspx (List of dishes divided by cuisine with description based on taste and method of preparation)
 
 #### [List](./Dishes.txt) of currently identifiable dishes
+
+#### Deployments
+1. The website can be found [here](https://rasoee.herokuapp.com/)
+2. The Mobile App can be downloaded from [here](https://github.com/ameyalaad/Rasoee/releases/download/v1.0/rasoee.apk)
