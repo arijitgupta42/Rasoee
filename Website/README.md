@@ -5,11 +5,12 @@
 You will need to download and install the following python packages.
 1. Pytorch : PyTorch is the machine learning library that was used for this website.
 ``` 
-pip install pytorch 
+pip install torch==1.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
 ```
 or on your anaconda prompt using 
 ```
-conda install -c pytorch pytorch
+conda install pytorch cpuonly -c pytorch
 ```
 
 2. Torchvision : It will be used to load models and important datasets. 
@@ -62,7 +63,8 @@ The website will now be accessible locally. Open any web browser and enter the a
 
 Upload photographs and have fun
 
-Savdhan rahe Satark rahe
+#### Important
+Please note that before running the website locally you will have to change the paths of all the static files in ***views.py*** from ```/app/``` to the current working directory
 
 ## Contributors
 - Dev Churiwala
