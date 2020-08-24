@@ -1,3 +1,6 @@
+<img align="left" width="64" height="64" src="http://rasoee.herokuapp.com/static/icon.svg" alt="Rasoee app icon">
+
+
 # Rasoee
 > **Our submission for the PyTorch Summer Hackathon 2020**
 
