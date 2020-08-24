@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rasoee</string>
+    <string name="content_description_image_to_be_analysed">Image to be analysed</string>
+    <string name="add_from_gallery">Add from Gallery</string>
+    <string name="capture">Capture</string>
+    <string name="analyze">Analyze</string>
+    <string name="content_resource_dish_thumbnail">dish_thumbnail</string>
+</resources>
