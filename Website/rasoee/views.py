@@ -116,6 +116,10 @@ def suggest(cuisine, description):
       return ['We found no dishes in our collection matching your needs']
   h = ' or '.join(['+'.join(x) for x in queries])
   #print(("\nWe got {} types of dish requirement(s), {}, and found {} dishes that match your description").format(len(queries), h, len(req_dishes)))
+  
+  if req_dishes == []:
+    return ['We found no dishes in our collection matching your needs']
+
   return req_dishes
 
 
