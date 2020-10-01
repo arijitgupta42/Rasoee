@@ -2,7 +2,7 @@
 
 
 # Rasoee
-> **Our submission for the PyTorch Summer Hackathon 2020**
+> **PyTorch Global Summer Hackathon 2020 Second Prize Winner**
 
 ### Use Cases
 1. The App will take images as input and output the name of the dish to the user. It will also list the ingredients to a recipe and the link to the original recipe.</br>
