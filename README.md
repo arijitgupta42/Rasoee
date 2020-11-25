@@ -1,4 +1,4 @@
-<img align="left" width="64" height="64" src="http://rasoee.herokuapp.com/static/icon.svg" alt="Rasoee app icon">
+<img align="left" width="64" height="64" src="https://github.com/arijitgupta42/Rasoee/blob/master/icon.svg" alt="Rasoee app icon">
 
 
 # Rasoee
