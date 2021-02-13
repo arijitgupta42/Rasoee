@@ -9,7 +9,7 @@ Unipath==1.0
 python-decouple==3
 Pillow==7.1.0
 Markdown==2.6.6
-bleach==3.1.4
+bleach==3.3.0
 psycopg2
 whitenoise==3.2
 --find-links https://download.pytorch.org/whl/torch_stable.html
