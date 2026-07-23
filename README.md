@@ -2,7 +2,12 @@
 
 
 # Rasoee
-> **PyTorch Global Summer Hackathon 2020 Second Prize Winner**
+> **PyTorch Global Summer Hackathon 2020 Second Prize Winner** — Web/Mobile category
+> ([announcement](https://pytorch.org/blog/announcing-the-winners-of-the-2020-global-pytorch-summer-hackathon/) · [write-up in the PyTorch publication](https://medium.com/pytorch/rasoee-a-picture-is-worth-a-thousand-ingredients-82576790a7bc))
+
+Identifies 308 dishes from a photo and returns ingredients and a recipe link.
+EfficientNet-B2 (9.2M params) fine-tuned to 91.3% on a dataset we scraped and cleaned
+ourselves, then TorchScript-compiled for on-device inference in the Android app.
 
 ### Use Cases
 1. The App will take images as input and output the name of the dish to the user. It will also list the ingredients to a recipe and the link to the original recipe.</br>
