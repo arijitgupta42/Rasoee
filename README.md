@@ -11,7 +11,7 @@
 #### [List](./Dishes.txt) of 308 currently identifiable dishes
 
 ### Deployments
-1. The website can be found [here](https://rasoee.herokuapp.com/)
+1. The website can be found [here](https://ag42homeserver.tail51dcd7.ts.net:8443/)
 2. The Mobile App can be downloaded from [here](https://github.com/ameyalaad/Rasoee/releases/download/v1.0/rasoee.apk)
 
 
